@@ -8,6 +8,5 @@ module.exports = ({ env }) => ({
       secret: env('ADMIN_JWT_SECRET', '0b77a665494a73073e74b00f0dc8e78b')
     },
   },
-  cron: { enabled: true},
-  url: "https://jinzhu-game.herokuapp.com"
+  cron: { enabled: true}
 });
